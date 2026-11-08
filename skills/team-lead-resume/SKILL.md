@@ -11,12 +11,14 @@ description: Use when writing, tailoring, or reviewing team-lead resumes, career
 
 | 작업 | 읽을 파일 |
 | --- | --- |
-| 유사 팀장급 채용 조사·직무별 책임 비교 | [채용 사례와 출처](references/hiring-cases.md) |
+| 유사 팀장급 채용 조사·한국 테크 기업 사례·직무별 책임 비교 | [채용 사례와 출처](references/hiring-cases.md) |
 | 신규·낯선 직무 조사, MECE 기능분류·경계, 복합 직무·직무 전환 | [직무별 참고표](references/role-families.md) |
 | JD와 경력 대조·리딩 범위·성과·경력 연수 판단 | [증거를 정리하는 절차](references/evidence-workflow.md) |
 | 한국어 초안·지정 양식·분량·DOCX/PDF 제출 | [작성과 제출](references/writing-and-delivery.md) |
 
 이 스킬은 최종 책임 산출물에 따른 15개 기능을 사용한다. 한 책임에는 한 기능을 배정하고, 복합 직무는 독립 책임으로 나누어라. AX·데이터 같은 기술, 산업, 관리 수준은 별도 속성으로 기록하라. 기능분류의 범위와 실제 채용 공고를 확보한 범위를 구분하라. 공고의 `Lead`, `Manager`, `팀장`만 보고 인사권을 추정하지 말라.
+
+한국 테크 기업에 지원할 때도 목표 기업의 현재 공고를 우선하라. 회사·시장 맥락을 별도 기능으로 만들지 말고, 과거 역할 인터뷰와 현재 채용 요건을 구별하라. 사례별 책임·권한·판단 질문은 채용 사례의 한국 테크 기업 비교표에서 고르라.
 
 ## 실행 순서
 
