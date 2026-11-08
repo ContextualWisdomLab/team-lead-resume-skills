@@ -1,5 +1,7 @@
 # Team Lead Resume Skills
 
+공개 저장소: [ContextualWisdomLab/team-lead-resume-skills](https://github.com/ContextualWisdomLab/team-lead-resume-skills)
+
 공식 채용 공고와 실제 경력 증거를 연결해 **팀장급 이력서·경력기술서·자기소개서**를 작성하고 검토하는 Agent Skill입니다. 첫 판은 한국어 IT·개발·데이터·AX 리더 직무를 중심으로 조사했습니다.
 
 스킬 이름은 **`team-lead-resume`**입니다. 사람 관리, 기술 판단, 프로젝트 실행, 사업 성과를 실제 책임에 맞춰 보여 주도록 돕습니다.
