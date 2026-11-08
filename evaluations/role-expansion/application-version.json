@@ -1,0 +1,48 @@
+{
+  "label": "Pre-MECE 10-family candidate, tested before subsequent user taxonomy requirement",
+  "recorded_at_utc": "2026-11-08T07:04:14.224807+00:00",
+  "baseline_source_commit": "2253f3acc2bed730e56a1f14d8fb7c53bf2721e2",
+  "skill_files_sha256": {
+    "SKILL.md": "50e01483da08acc48965ce3396eb303caebabe7baa3b855586a4d4067587d542",
+    "references/role-families.md": "9dc6caac7b4b6be0fd113b6e3b60de830067e6c99b5e1590ac9634dbb4120c78",
+    "references/evidence-workflow.md": "57fd5f0459471673d7020bfddac106b0d739e7482de6c255229d45ec39f92fac",
+    "references/writing-and-delivery.md": "4b813a090e5fcabf75d95c17612e843ab6dd37dbe5bec28446f52be784169011",
+    "references/hiring-cases.md": "cb7ccf23c508d80371d13d045f93686f205f98b56d46cdf43477ebf342c7c7d5"
+  },
+  "inputs_sha256": {
+    "input-commercial.md": "6b1342fbc91b1b572216c4528bb6c44322e17ef0787c852cd07e6b89c524f8fb",
+    "input-corporate.md": "8f03dba5d51c382a304d36d620415766083cd5f83e2c8476b2c9231b3226a421"
+  },
+  "scope": "Candidate snapshot before application. Each runner must report the actual files read; this is not a claim every file was read.",
+  "runs": {
+    "C": {
+      "input": "input-commercial.md",
+      "output": "commercial-response.md",
+      "fresh_context": true,
+      "read_files": [
+        "SKILL.md",
+        "references/role-families.md",
+        "references/evidence-workflow.md",
+        "references/writing-and-delivery.md"
+      ],
+      "response_scope": "User-facing body preserved verbatim; separate runtime read-file list recorded here.",
+      "output_sha256": "aea4d57de5dd1de221c1425dcdfcd857001914e45952b3a2dc22051428cb4a34"
+    },
+    "D": {
+      "input": "input-corporate.md",
+      "output": "corporate-response.md",
+      "fresh_context": true,
+      "read_files": [
+        "SKILL.md",
+        "references/role-families.md",
+        "references/evidence-workflow.md",
+        "references/writing-and-delivery.md"
+      ],
+      "response_scope": "User-facing body preserved verbatim; separate runtime read-file list recorded here.",
+      "output_sha256": "a539ef37c11a0ce49ba42ccbfb22ecdd530a9cbfeb8883c684e73f8fdf4c6d6a"
+    }
+  },
+  "read_file_snapshot_root": "pre-mece-snapshot/",
+  "final_taxonomy_evaluation": "Recorded separately; these C/D runs did not use the final MECE taxonomy.",
+  "snapshot_scope": "Four actually read files are preserved byte-for-byte. The hiring-cases file was not read by C/D; its prior hash is retained, and its snapshot-path file is an explicit link stub rather than a duplicate source ledger."
+}

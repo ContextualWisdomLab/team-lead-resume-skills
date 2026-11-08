@@ -1,6 +1,6 @@
 ---
 name: team-lead-resume
-description: Use when writing, tailoring, or reviewing a resume, career description, or application for a team lead, engineering manager, data lead, or AX/AI transformation manager role; also for 한국어 팀장급 이력서·경력기술서·자기소개서, 경력 연수, 리더십 범위, 성과 근거, 채용 공고 대응, and employer-specified application forms.
+description: Use when writing, tailoring, or reviewing team-lead resumes, career descriptions, or applications across business, product, engineering, commercial, operations, corporate, and assurance functions; also for 한국어 팀장급 이력서·경력기술서·자기소개서, MECE 직무 분류, 복합 직무, 직무 전환, 성과 근거, 경력 연수, and employer-specified forms.
 ---
 
 # 팀장급 이력서 작성과 검토
@@ -12,16 +12,17 @@ description: Use when writing, tailoring, or reviewing a resume, career descript
 | 작업 | 읽을 파일 |
 | --- | --- |
 | 유사 팀장급 채용 조사·직무별 책임 비교 | [채용 사례와 출처](references/hiring-cases.md) |
+| MECE 기능분류·경계·직무별 근거 선택, 복합 직무·직무 전환 | [직무별 참고표](references/role-families.md) |
 | JD와 경력 대조·리딩 범위·성과·경력 연수 판단 | [증거를 정리하는 절차](references/evidence-workflow.md) |
 | 한국어 초안·지정 양식·분량·DOCX/PDF 제출 | [작성과 제출](references/writing-and-delivery.md) |
 
-이 스킬은 한국어 IT·개발·데이터·AX 직무를 중심으로 조사한 참고 지침이다. 다른 직무에서는 실제 공고를 우선하라. 공고의 `Lead`, `Manager`, `팀장`만 보고 인사권을 추정하지 말라.
+이 스킬은 최종 책임 산출물에 따른 15개 기능을 사용한다. 한 책임에는 한 기능을 배정하고, 복합 직무는 독립 책임으로 나누어라. AX·데이터 같은 기술, 산업, 관리 수준은 별도 속성으로 기록하라. 기능분류의 범위와 실제 채용 공고를 확보한 범위를 구분하라. 공고의 `Lead`, `Manager`, `팀장`만 보고 인사권을 추정하지 말라.
 
 ## 실행 순서
 
 1. **목표와 제출 조건을 확정하라.** 공고 원문·확인일, 필수/우대/업무, 문서 종류, 회사 지정 양식·문항 순서·분량·파일 형식을 읽어라. 사용자가 이미 준 정보로 진행하라. 공고가 없으면 일반 팀장급 초안이라고 밝히고 특정 회사 요건을 만들지 말라. 새 공고를 조사할 때만 현행 원문을 확인하고 검색 요약과 본문을 구별하라.
 2. **지원자의 사실을 대조하라.** 회사·기간·고용형태·공식 직책·실제 역할·직속 인원·프로젝트 인원·권한·개인 행동·팀 산출물·결과·근거를 정리하라. 이번 요청의 명시적 정정을 반영하되 충돌을 숨기거나 유리한 값을 선택하지 말라. 자료가 없는 JD 항목은 내부 확인 목록에 남기고 나머지 작성을 계속하라.
-3. **책임별로 JD에 대응하라.** 조직 운영, 인재 육성, 기술·데이터 판단, 사업/KPI, 협업·변화 정착, 보안·운영 중 실제 공고에 있는 축을 선택하라. 요구마다 실제 경험과 출처를 연결하라. 인사관리와 프로젝트 리딩, 전략 수립과 승인, 기획과 구현을 분리하라.
+3. **직무와 책임별로 JD에 대응하라.** 직무별 참고표의 포함·제외 경계로 책임을 분류하고, 핵심 결과 책임을 근거로 대표 기능과 보조 책임을 정하라. 근거가 부족하면 대표 기능을 미확정으로 두고 나머지 작성을 계속하라. 공고의 독립 책임에서 미배정·다중배정·성과 중복이 없는지 확인하라. 실제 경험·출처를 연결하고 인사관리와 업무 리딩, 수립과 승인, 기획과 구현을 분리하라.
 4. **경력과 성과를 검산하라.** 겹친 재직 기간은 합집합으로 계산하라. 연구·계약·시간제 경력의 포함 근거와 채용사의 인정 여부를 분리하라. 기간 JSON이 있으면 `python3 scripts/career_months.py INPUT.json --as-of YYYY-MM`를 실행하라. 월 계산은 정확한 재직 일수나 필수 연수 충족 판정이 아니다. KPI는 전후 값·기간·분모·대상·집계 방법과 개인 기여를 확인하라.
 5. **경력의 중심을 잡아 작성하라.** 확인된 경력의 출발점→현재 전문성→반복해 해결한 문제를 이어라. 상단 요약과 관련 성과를 먼저, 회사별 경력과 대표 프로젝트를 뒤에 두되 지정 양식은 유지하라. 문제/범위→본인 판단·행동→산출물·확인된 결과를 쓰라. 존재하지 않는 문제·성과를 문장 공식에 맞춰 만들지 말라. 지원 동기와 입사 후 계획은 과거 실적과 구별하라.
 6. **제출본을 점검하라.** 요약·경력기술서·자기소개서의 기간·직함·역할·수치를 대조하라. 문장 작성에는 사용자가 지정한 한국어 지침을 적용하라. DOCX/PDF가 필요하면 해당 문서 스킬을 사용하고 마지막 수정 뒤 모든 쪽의 렌더·글자 잘림·표·텍스트 추출 순서를 확인하라. 실제 제출 시스템을 시험하지 않고 ATS 통과나 파싱 성공을 주장하지 말라.

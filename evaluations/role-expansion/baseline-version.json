@@ -1,0 +1,12 @@
+{
+  "label": "C baseline with installed v0.1.0 skill",
+  "source_commit": "2253f3acc2bed730e56a1f14d8fb7c53bf2721e2",
+  "installed_materialization_commit": "df56fc101207fb53d07e2cef9e15ab91c7574e27",
+  "verified_on": "2026-11-08",
+  "read_files_sha256": {
+    "SKILL.md": "4dca06e948a3975fa684002246c89d40618e34be723001e492f4d04db8dc8a6b",
+    "references/evidence-workflow.md": "348e62ed41aa9882961ce7a62cc007189213871799e36b5d9524f94ec411f0d1",
+    "references/writing-and-delivery.md": "6fec8b0c72ba23995354d2ff5e9b557307def19755eff8134500e109443f2406"
+  },
+  "response_scope": "Resume body and important confirmations preserved verbatim; runtime path listing recorded here as relative paths."
+}

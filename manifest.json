@@ -1,14 +1,15 @@
 {
-  "version": "0.1.0",
+  "version": "0.2.0",
   "verified_on": "2026-11-08",
   "python_tested": "3.12.14",
-  "scope": "Final distribution files only; not hashes of earlier evaluation inputs",
+  "scope": "Final distribution files only; earlier C/D candidate and E input hashes are recorded separately in evaluations.",
   "files": {
-    "skills/team-lead-resume/SKILL.md": "4dca06e948a3975fa684002246c89d40618e34be723001e492f4d04db8dc8a6b",
+    "skills/team-lead-resume/SKILL.md": "a049adbaaf456097f477a6e4eb4b5cf97e63d442f1023b939345be32da0da89f",
     "skills/team-lead-resume/agents/openai.yaml": "0472665fa129c7fa603f746e775023df70ad9ad666bf224040e70be8067e164e",
-    "skills/team-lead-resume/references/evidence-workflow.md": "348e62ed41aa9882961ce7a62cc007189213871799e36b5d9524f94ec411f0d1",
-    "skills/team-lead-resume/references/hiring-cases.md": "169725a982414bb0c7040e1f5000559991b172d768c674816ea5c2fcb74b7245",
-    "skills/team-lead-resume/references/writing-and-delivery.md": "6fec8b0c72ba23995354d2ff5e9b557307def19755eff8134500e109443f2406",
+    "skills/team-lead-resume/references/evidence-workflow.md": "57fd5f0459471673d7020bfddac106b0d739e7482de6c255229d45ec39f92fac",
+    "skills/team-lead-resume/references/hiring-cases.md": "c3116bf5eab737a48614d4e390781ce034272fa8a936f3979f9ffb0941a2dcd7",
+    "skills/team-lead-resume/references/role-families.md": "7c005864d2604c5be7d0a8c9a92771e32d7a633612a3d1b3d83e4f283bbee7f0",
+    "skills/team-lead-resume/references/writing-and-delivery.md": "4b813a090e5fcabf75d95c17612e843ab6dd37dbe5bec28446f52be784169011",
     "skills/team-lead-resume/scripts/career_months.py": "b1b2f6aea612056670f1b8a8d6e938fa88ebd02ad789db1c87038d9fef8ec64a"
   }
 }
