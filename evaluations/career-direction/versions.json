@@ -1,0 +1,20 @@
+{
+  "baseline": {
+    "team-lead-resume/SKILL.md": "76c308caf4212583799b9e2b2fd4840c9a490228fded4b1d3b759953f9c1153b",
+    "team-lead-resume/references/writing-and-delivery.md": "6b458e912142b7919831b7358824443f3157ff10c2ee4d556fb10910b268745b",
+    "write-career-description/SKILL.md": "035c682a8c860067facacc54ee42614eb649386c424d22f1f4b2be556809ca0e",
+    "write-career-description/assets/career-description-outline.md": "58ae4a99bfb4463b93ac6b7577d6ace751d2e6f3e4509b542980d9fa1f5bec99"
+  },
+  "revised": {
+    "team-lead-resume/SKILL.md": "cb747a0d80360b9bd74611bcbb802d178a8c61e102c5c25f2f75f4dc8a532b20",
+    "team-lead-resume/references/writing-and-delivery.md": "f961b3d3bb8fd9bf456914af5dfa47c0e3985741436e59a7b4ee1d2f66464b66",
+    "write-career-description/SKILL.md": "c535b18694c4e217553ab4481466bfc1ddf0474133af11a209e869ce01e7cb2f",
+    "write-career-description/assets/career-description-outline.md": "0fc7fcab1f5696ac460ceeedc30a0522f5298187edfde34504eeea4dea5d664d"
+  },
+  "final_integrated": {
+    "team-lead-resume/SKILL.md": "cb747a0d80360b9bd74611bcbb802d178a8c61e102c5c25f2f75f4dc8a532b20",
+    "team-lead-resume/references/writing-and-delivery.md": "f961b3d3bb8fd9bf456914af5dfa47c0e3985741436e59a7b4ee1d2f66464b66",
+    "write-career-description/SKILL.md": "1467b4af54f3f39e7e508e7fb9f29558c4369d383c6416aca58f8e5aee137b62",
+    "write-career-description/assets/career-description-outline.md": "e77a3209d881d03fff007faac6c4675e46656502c57c34b55fa00f0dc4195b97"
+  }
+}
