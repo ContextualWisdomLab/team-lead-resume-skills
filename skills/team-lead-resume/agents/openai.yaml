@@ -1,0 +1,4 @@
+interface:
+  display_name: "팀장급 이력서 작성"
+  short_description: "채용 공고와 실제 경력 증거를 연결하는 팀장급 이력서 작성·검토"
+  default_prompt: "$team-lead-resume을 사용해 채용 공고와 경력 자료를 대조하고 팀장급 이력서와 경력기술서를 작성해 주세요."
