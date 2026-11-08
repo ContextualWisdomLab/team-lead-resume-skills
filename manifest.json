@@ -1,15 +1,15 @@
 {
-  "version": "0.3.2",
+  "version": "0.3.5",
   "verified_on": "2026-11-08",
   "python_tested": "3.12.14",
-  "scope": "Final v0.3.2 distribution files only. Earlier application and evaluation snapshots remain records of their respective versions.",
+  "scope": "Final v0.3.5 distribution files only. Earlier application and evaluation snapshots remain records of their respective versions.",
   "files": {
-    "skills/team-lead-resume/SKILL.md": "b59f5aaad1cf974cb51f8d6ceb0290d178d0af55605b4969b312068b9fc27815",
+    "skills/team-lead-resume/SKILL.md": "c79709d7517f69f9b00016942a341abf81b1a2f3829b9681be8063c41971de9a",
     "skills/team-lead-resume/agents/openai.yaml": "0472665fa129c7fa603f746e775023df70ad9ad666bf224040e70be8067e164e",
-    "skills/team-lead-resume/references/evidence-workflow.md": "a68e08cd57a857a582d80bb072deda4be99adf53ce3038de9ed96b2c785c0a09",
+    "skills/team-lead-resume/references/evidence-workflow.md": "9880f59b73da0ee966ed7f2817ec0686c7f490591eb2fea952d24e43646d9e04",
     "skills/team-lead-resume/references/hiring-cases.md": "3ecf772339cc07c95271a8d70f590256467ec931c474147130e1a153fc859644",
     "skills/team-lead-resume/references/role-families.md": "1065b119887247456e854cc888ce38c2884513bd2531eeaae18d187a0ec8fde9",
-    "skills/team-lead-resume/references/writing-and-delivery.md": "a30271590771e4e7aca0d9c56a3b3fdc77b6a059d4cee7caa3514c82fa96140e",
+    "skills/team-lead-resume/references/writing-and-delivery.md": "e49b2130be93ec6a2ae8ff8879d07e4f135465f461c60a1a6ddcf7d69f78c434",
     "skills/team-lead-resume/scripts/career_months.py": "b1b2f6aea612056670f1b8a8d6e938fa88ebd02ad789db1c87038d9fef8ec64a"
   }
 }
