@@ -1,0 +1,36 @@
+{
+  "label": "0.2.0 baseline before role-research and reasons correction",
+  "recorded_at_utc": "2026-11-08T08:00:43.174358+00:00",
+  "public_commit": "fb1ac438caac19ffe2828dd6421a25410e46e793",
+  "skill_files_sha256": {
+    "SKILL.md": "a049adbaaf456097f477a6e4eb4b5cf97e63d442f1023b939345be32da0da89f",
+    "agents/openai.yaml": "0472665fa129c7fa603f746e775023df70ad9ad666bf224040e70be8067e164e",
+    "references/evidence-workflow.md": "57fd5f0459471673d7020bfddac106b0d739e7482de6c255229d45ec39f92fac",
+    "references/hiring-cases.md": "c3116bf5eab737a48614d4e390781ce034272fa8a936f3979f9ffb0941a2dcd7",
+    "references/role-families.md": "7c005864d2604c5be7d0a8c9a92771e32d7a633612a3d1b3d83e4f283bbee7f0",
+    "references/writing-and-delivery.md": "4b813a090e5fcabf75d95c17612e843ab6dd37dbe5bec28446f52be784169011",
+    "scripts/career_months.py": "b1b2f6aea612056670f1b8a8d6e938fa88ebd02ad789db1c87038d9fef8ec64a"
+  },
+  "input_sha256": "51782f2ab47463a16281a7db6da6a1882955b72135fbfbb08ac459d6b5ba1f54",
+  "criteria_sha256": "7bc60db7e7efab45871e3999fb8721ade3283476d015111105534fbfbc8b0299",
+  "scope": "Recorded before baseline run; runner receives input and baseline skill only, with browsing allowed.",
+  "run": {
+    "input": "input.md",
+    "output": "baseline-response.md",
+    "output_sha256": "d89aabea70e42ae4382e2acfa97067460b582d131d4df04953b0e47afd244fde",
+    "fresh_initial_context": true,
+    "completion": "Parent interrupted the long-running execution and resumed the same context to finalize using already-read material without further tools. Not an uninterrupted timing benchmark.",
+    "read_files": [
+      "SKILL.md",
+      "references/hiring-cases.md",
+      "references/role-families.md",
+      "references/evidence-workflow.md",
+      "references/writing-and-delivery.md"
+    ],
+    "response_scope": "User-facing response preserved; separate runtime appendix normalized here.",
+    "external_opened_urls": [
+      "https://tradingtechnologies.pinpointhq.com/en/postings/ac7bfdc6-410a-47e6-8c07-85b84509ec7a"
+    ],
+    "source_scope": "Compared Peec AI and SEON search excerpts; explicitly did not claim full original-page verification."
+  }
+}

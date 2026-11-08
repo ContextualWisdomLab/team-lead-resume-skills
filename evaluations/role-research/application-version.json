@@ -1,0 +1,68 @@
+{
+  "label": "0.3.0 candidate before fresh-context research and reasons application",
+  "recorded_at_utc": "2026-11-08T08:02:12.570984+00:00",
+  "skill_files_sha256": {
+    "SKILL.md": "f5b1e8297e649420941c080162e36ded7c911a0c8717eeddcc826997d0ddc584",
+    "references/evidence-workflow.md": "23c918ca976449cb2b1d7fedbaf71efcb2a5d289887aea51a0279880ad65d598",
+    "references/hiring-cases.md": "4df87610c2d82ccbbf775dbcb3c310cede878b7888cc2638f6dc87818c4c630b",
+    "references/role-families.md": "4d143c16f18df5e69d27a5627f5a92403c638fd3e1f1f6d2766046082c561477",
+    "references/writing-and-delivery.md": "6b458e912142b7919831b7358824443f3157ff10c2ee4d556fb10910b268745b"
+  },
+  "input_sha256": "51782f2ab47463a16281a7db6da6a1882955b72135fbfbb08ac459d6b5ba1f54",
+  "criteria_sha256": "7bc60db7e7efab45871e3999fb8721ade3283476d015111105534fbfbc8b0299",
+  "scope": "Recorded before run; runner receives input and installed skill only, with browsing allowed. FDE examples differ from RevOps input.",
+  "post_application_edits": {
+    "recorded_at_utc": "2026-11-08T08:25:13.681464+00:00",
+    "patch": "post-application-edits.patch",
+    "changes": [
+      "Added navigation contents to three long references.",
+      "Clarified unspecified ownership in a synthetic priority example.",
+      "Added explicit checks for ownership of success criteria and matching measurement cutoff/denominator before claiming goal attainment."
+    ],
+    "reconstruction": "Apply this patch in reverse to final distribution files to reconstruct original pre-application hashes. Reconstruction was checked in memory against every pre-application SHA-256 before adding the corrective rules.",
+    "behavioral_change": "Goal ownership and matching measurement conditions clarified after observed application issues. Follow-up application recorded separately."
+  },
+  "run": {
+    "input": "input.md",
+    "output": "application-response.md",
+    "output_sha256": "98278427cc718bc55706a7bf2c3f66bb985dc69b512403e6529bf3673baf0727",
+    "fresh_initial_context": true,
+    "completion": "Parent interrupted the long-running execution and resumed the same context to finalize using already-read material without further tools. Not an uninterrupted timing benchmark.",
+    "read_files": [
+      "SKILL.md",
+      "references/hiring-cases.md",
+      "references/role-families.md",
+      "references/evidence-workflow.md",
+      "references/writing-and-delivery.md"
+    ],
+    "response_scope": "User-facing response preserved; separate runtime appendix normalized here.",
+    "external_opened_urls": [
+      "https://jobs.ashbyhq.com/primer/b8645d28-cf60-4ca2-9194-945cd2c9c2c4",
+      "https://jobs.ashbyhq.com/firecrawl/0d7a5f64-4da7-4f68-844f-7c4748c5f847/",
+      "https://jobs.ashbyhq.com/firecrawl/0d7a5f64-4da7-4f68-844f-7c4748c5f847"
+    ],
+    "source_scope": "Standard web open returned JS-only/404. Runner reports completed TinyFish fetch_content extraction at the official URLs and reading results[0].text and results[1].text. Final response used that extracted body, not search snippets. Parent standard-web reopen reproduced JS-only/404; extractor bodies were not independently reopened by parent."
+  },
+  "followup": {
+    "recorded_at_utc": "2026-11-08T08:26:20.079521+00:00",
+    "same_context": true,
+    "scope": "Repair application of original input after general rules were clarified. No diagnosis or expected output supplied; no further external research. Not an independent fresh-context generalization result. An initial follow-up was interrupted before completion to replace an overlapping metric example with a different-domain example.",
+    "skill_files_sha256": {
+      "SKILL.md": "bb5dbba531e9fbde26815f5d41603c7d4b87a7476b680b02ec117ebb078cbfbd",
+      "references/evidence-workflow.md": "f6cb43489cd3e5dacb1f61a652ab61e9019798909c09d05bae6909bce2bfe639",
+      "references/hiring-cases.md": "ee2f29364348380cf33d39e724e2f9f203e545ec55e157755fd097648aa96a8d",
+      "references/role-families.md": "b7710773e6767899b2063de522a83b9e4bcb55a7c3f08cbdcdc72c8b8e3373d8",
+      "references/writing-and-delivery.md": "6b458e912142b7919831b7358824443f3157ff10c2ee4d556fb10910b268745b"
+    },
+    "input_sha256": "51782f2ab47463a16281a7db6da6a1882955b72135fbfbb08ac459d6b5ba1f54",
+    "output": "application-revised-response.md",
+    "output_sha256": "3c334039ddf802022a0f2f6714d345540c12334064a334b0fcba584a0b488576",
+    "body_characters_including_markdown": 634,
+    "read_files": [
+      "SKILL.md",
+      "references/evidence-workflow.md",
+      "input.md"
+    ],
+    "observed": "Agreed criterion ownership preserved; unverified measurement cutoff asked separately; no unsupported goal-attainment claim."
+  }
+}
